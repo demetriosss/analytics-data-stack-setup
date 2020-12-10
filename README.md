@@ -11,6 +11,7 @@ This list is not exhaustive, but attempts to show the broad categories for a mod
 1. **Data Transformation & Analytics Engineering:** [dbt](https://www.getdbt.com/)
 1. **Visualiztion & Reporting:** [Sisense](https://www.sisense.com/product/data-teams/) (formerly Periscope), [Looker](https://looker.com/), [Mode](https://mode.com/), [Chartio](https://chartio.com/), etc.
 1. **Self-Service Product Analytics:** [Amplitude](https://amplitude.com/)
+1. **Experimentation (A/B testing):** [Split](https://split.io/)
 
 ## 1 - Data Warehouse
 In the [`/snowflake`](./snowflake) and [`/redshift`](./redshift) folders you will find respective SQL scripts (with comments and instructions) that should be run in numerical order (0 --> 6) to configure your data warehouse. This process follows [the exact privileges Fishtown Analytics grants outside of dbt](https://discourse.getdbt.com/t/the-exact-privileges-we-grant-outside-of-dbt/439).
@@ -30,6 +31,9 @@ WIP
 WIP
 
 ## 6 - Self-Service Analytics
+WIP
+
+## 7 - Experimentation (A/B testing)
 WIP
 
 ## Resources:
