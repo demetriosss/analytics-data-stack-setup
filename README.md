@@ -9,7 +9,7 @@ This list is not exhaustive, but attempts to show the broad categories for a mod
 1. **Data Generation:** A Customer Data Platfrom (CDP) like [Segment](https://segment.com/) for website or app events, [Google Analytics](https://analytics.google.com/analytics/web/), [Facebook Ads](https://www.facebook.com/business/ads), any data source that can send data to a database or that can be extracted using an Extract & Load tool.
 1. **Extract & Load:** [Stitch](https://www.stitchdata.com/), [Fivetran](https://fivetran.com/), etc.
 1. **Data Transformation & Analytics Engineering:** [dbt](https://www.getdbt.com/)
-1. **Visualiztion & Reporting:** [Sisense](https://www.sisense.com/product/data-teams/) (formerly Periscope), [Looker](https://looker.com/), [Mode](https://mode.com/), [Chartio](https://chartio.com/), etc.
+1. **Visualization & Reporting:** [Sisense](https://www.sisense.com/product/data-teams/) (formerly Periscope), [Looker](https://looker.com/), [Mode](https://mode.com/), [Chartio](https://chartio.com/), etc.
 1. **Self-Service Product Analytics:** [Amplitude](https://amplitude.com/)
 1. **Experimentation (A/B testing):** [Split](https://split.io/)
 
@@ -27,7 +27,7 @@ WIP
 ## 4 - Data Transformation & Analytics Engineering
 WIP
 
-## 5 - Visualiztion & Reporting
+## 5 - Visualization & Reporting
 WIP
 
 ## 6 - Self-Service Analytics
