@@ -5,10 +5,10 @@ I shamelessly steal docs, guides, and tutorials from others to try and clearly a
 
 # The Stack
 This list is not exhaustive, but attempts to show the broad categories for a modern analytics data stack. 
-1. **Date warehouse:** [Snowflake](https://www.snowflake.com/), [Redshift](https://aws.amazon.com/redshift/), etc.
-1. **Data generation:** A Customer Data Platfrom (CDP) like [Segment](https://segment.com/) for website or app events, [Google Analytics](https://analytics.google.com/analytics/web/), [Facebook Ads](https://www.facebook.com/business/ads), any data source that can send data to a database or that can be extracted using an Extract & Load tool.
+1. **Date Warehouse:** [Snowflake](https://www.snowflake.com/), [Redshift](https://aws.amazon.com/redshift/), etc.
+1. **Data Generation:** A Customer Data Platfrom (CDP) like [Segment](https://segment.com/) for website or app events, [Google Analytics](https://analytics.google.com/analytics/web/), [Facebook Ads](https://www.facebook.com/business/ads), any data source that can send data to a database or that can be extracted using an Extract & Load tool.
 1. **Extract & Load:** [Stitch](https://www.stitchdata.com/), [Fivetran](https://fivetran.com/), etc.
-1. **Data transformation & Analytics Engineering:** [dbt](https://www.getdbt.com/)
+1. **Data Transformation & Analytics Engineering:** [dbt](https://www.getdbt.com/)
 1. **Visualiztion & Reporting:** [Sisense](https://www.sisense.com/product/data-teams/) (formerly Periscope), [Looker](https://looker.com/), [Mode](https://mode.com/), [Chartio](https://chartio.com/), etc.
 1. **Self-Service Product Analytics:** [Amplitude](https://amplitude.com/)
 
@@ -17,22 +17,19 @@ In the [`/snowflake`](./snowflake) and [`/redshift`](./redshift) folders you wil
 
 Personally, setting up Snowflake seems to be the more straightforward of the 2 options. This obviously leaves out Google BigQuery and Azure, but I am not familiar with either.
 
-## 2 - Data generation
+## 2 - Data Generation
 WIP
 
 ## 3 - Extract & Load
 WIP
 
-## 4 - Data transformation & Analytics Engineering
+## 4 - Data Transformation & Analytics Engineering
 WIP
 
-## 5 - Data transformation & Analytics Engineering
+## 5 - Visualiztion & Reporting
 WIP
 
-## 6 - Visualiztion & Reporting
-WIP
-
-## 7 - Self-Service Analytics
+## 6 - Self-Service Analytics
 WIP
 
 ## Resources:
