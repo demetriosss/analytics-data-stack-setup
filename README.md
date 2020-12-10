@@ -1,13 +1,14 @@
-# data-stack-setup
+# analytics-data-stack-setup
 A repo for setting up a modern data stack. I shamelessly steal docs, guides, and tutorials from others to try and clearly articulate a path from "I KNOW NOTHING" (where I started) to "I HAVE THE DATA STACK" (where I hope to end). This is my take on the stack based on my work at [Surfline](https://www.surfline.com/). You may have different needs and tooling.
 
 # The Stack
-1. **Date warehouse:** Snowflake, Redshift, etc.
-1. **Data generation:** Segment, your app/website, Google Analytics, any data source that can send data to a database or that can be extracted using an Extract & Load tool.
-1. **Extract & Load:** Stitch, Fivetran, etc.
-1. **Data transformation & Analytics Engineering:** dbt
-1. **Visualiztion & Reporting:** Periscope, looker, Mode, Chartio, etc.
-1. **Self-Service Analytics:** Amplitude
+This list is not exhaustive, but attempts to show the broad categories for a modern analytics data stack. 
+1. **Date warehouse:** [Snowflake](https://www.snowflake.com/), [Redshift](https://aws.amazon.com/redshift/), etc.
+1. **Data generation:** A Customer Data Platfrom (CDP) like [Segment](https://segment.com/) for website or app events, [Google Analytics](https://analytics.google.com/analytics/web/), [Facebook Ads](https://www.facebook.com/business/ads), any data source that can send data to a database or that can be extracted using an Extract & Load tool.
+1. **Extract & Load:** [Stitch](https://www.stitchdata.com/), [Fivetran](https://fivetran.com/), etc.
+1. **Data transformation & Analytics Engineering:** [dbt](https://www.getdbt.com/)
+1. **Visualiztion & Reporting:** [Sisense](https://www.sisense.com/product/data-teams/) (formerly Periscope), [Looker](https://looker.com/), [Mode](https://mode.com/), [Chartio](https://chartio.com/), etc.
+1. **Self-Service Product Analytics:** [Amplitude](https://amplitude.com/)
 
 ## 1 - Data Warehouse
 In the [`/snowflake`](./snowflake) and [`/redshift`](./redshift) folders you will find respective SQL scripts (with comments and instructions) that should be run in numerical order (0 --> 6) to configure your data warehouse. This process follows [the exact privileges Fishtown Analytics grants outside of dbt](https://discourse.getdbt.com/t/the-exact-privileges-we-grant-outside-of-dbt/439).
