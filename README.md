@@ -1,5 +1,7 @@
 # analytics-data-stack-setup
-A repo for setting up a modern data stack. I shamelessly steal docs, guides, and tutorials from others to try and clearly articulate a path from "I KNOW NOTHING" (where I started) to "I HAVE THE DATA STACK" (where I hope to end). This is my take on the stack based on my work at [Surfline](https://www.surfline.com/). You may have different needs and tooling.
+A repo for setting up a modern analytics data stack. This is my take on the stack based on my work at [Surfline](https://www.surfline.com/). You may have different needs and tooling.
+
+I shamelessly steal docs, guides, and tutorials from others to try and clearly articulate a path from "I KNOW NOTHING" (where I started) to "I HAVE THE DATA STACK" (where I hope to end). 
 
 # The Stack
 This list is not exhaustive, but attempts to show the broad categories for a modern analytics data stack. 
