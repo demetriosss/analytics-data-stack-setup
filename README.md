@@ -14,6 +14,10 @@ This list is not exhaustive, but attempts to show the broad categories for a mod
 1. **Experimentation (A/B testing):** [Split](https://split.io/)
 
 ## 1 - Data Warehouse
+This [article](https://blog.getdbt.com/five-principles-that-will-keep-your-data-warehouse-organized/) gives a great overwiew of 5 principles for data warehouse setup and maintenance.
+
+I also found this [article](https://blog.getdbt.com/how-we-configure-snowflake/) was helpful in understanding conceptually what I was trying to achieve when setting up Snowflake (though the concepts apply to Redshift as well).
+
 In the [`/snowflake`](./snowflake) and [`/redshift`](./redshift) folders you will find respective SQL scripts (with comments and instructions) that should be run in numerical order (0 --> 6) to configure your data warehouse. This process follows [the exact privileges Fishtown Analytics grants outside of dbt](https://discourse.getdbt.com/t/the-exact-privileges-we-grant-outside-of-dbt/439).
 
 Personally, setting up Snowflake seems to be the more straightforward of the 2 options. This obviously leaves out Google BigQuery and Azure, but I am not familiar with either.
